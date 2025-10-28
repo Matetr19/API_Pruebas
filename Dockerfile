@@ -10,11 +10,4 @@ COPY --from=build /app/out .
 ENV ASPNETCORE_URLS=http://+:8080
 EXPOSE 8080
 ENTRYPOINT ["dotnet", "APIPoliza.dll"]
-```
 
-**Archivo 2: `.dockerignore`** (en la raíz)
-```
-bin/
-obj/
-.vs/
-.git/
