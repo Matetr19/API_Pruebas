@@ -1,0 +1,6 @@
+@APIPoliza_HostAddress = http://localhost:5150
+
+GET {{APIPoliza_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
